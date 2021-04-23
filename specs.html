@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="../projeto-glass-html5/_css/estilo.css">
+    <!--Comentarios  utilizando inserção de estilo obs modo de inserir arquivo -->
+    <link rel="stylesheet" href="../projeto-glass-html5/_css/specs.css">
+
+</head>
+<script language="javaScript" src="../projeto-glass-html5/_javascript/funcoes.js"></script>
+
+<body>
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <hgroup>
+                <h1 id=>Google Glass</h1>
+                <h2>A revolução do Google está chegando </h2>
+            </hgroup>
+
+            <img id="icone" src="../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png">
+
+
+
+            <nav id="menu">
+                <!--criando um container-->
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmousemove="mudaFoto('../projeto-glass-html5/_imagens/Home.png')"
+                        onmouseout="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="../Exercicios_HTML5/SiteTesteCurso.html">Home</a></li>
+                    <li onmousemove="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="../projeto-glass-html5/specs.html">Especificações</a></li>
+                    <li onmousemove="mudaFoto('../projeto-glass-html5/_imagens/Fotos.png')"
+                        onmouseout="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="../projeto-glass-html5/fotos.html">Fotos</a></li>
+                    <li onmousemove="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="../projeto-glass-html5/multimidia.html">Multimídia</a></li>
+                    <li onmousemove="mudaFoto('../projeto-glass-html5/_imagens/contato.png')"
+                        onmouseout="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"><a
+                            href="../projeto-glass-html5/fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3> Glass > Especificações</h3>
+                        <h1> Raio-X no Google Glass</h1>
+                        <h2> Renato Alves</h2>
+                        <h3 class="direita"></h3> Atualizado em 16/Abril/2021</h3>
+                    </hgroup>
+                </header>
+                <p>
+                    Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
+                    Glass.
+                    Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+                </p>
+                 <section> <img src="../projeto-glass-html5/_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+                    <map name="meumapa">
+                        <area shape="rect" coords="182,208,265,242" href="google-glass.html#tela" target="janela"/>
+                        <area shape="circle" coords="159,242,15" href="google-glass.html#camera" target="janela"/>
+                        <area shape="circle" coords="76,50,15" href="google-glass.html#gadgets" target="janela"/>
+                        <area shape="poly" coords="29,148,26,169,79,245,82,217" href="google-glass.html#sensores" target="janela"/>
+                    </map>
+                     <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+                    </section>
+                </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright 2013 - by Renato Alves<br>
+                e-mail
+                <a href="renato.delf@gmail.com" target="_blank">
+                    <e-mail>renato.delfos@gmail.com</e-mail>
+                </a>
+                <!--Nest ponto pode ser colocado links para acesso-->>
+            </p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
